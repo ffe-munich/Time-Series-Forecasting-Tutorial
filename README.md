@@ -3,5 +3,15 @@ The energy industry is facing significant challenges that require high adaptabil
 
 # Tutorial on Household and PV Load Forecasting
 
-In the time_series_forecasting.ipynb you can find the tutorial. For this tutorial, [public data from the pilot operation of the BDL project](https://opendata.ffe.de/dataset/electric-load-profiles-and-vehicle-data-of-private-households-with-a-bidirectional-ev/), which records household and PV load from various buildings, is used. Initially, some features are extracted from the time series, which can be derived from temporal information or from past values or their statistical properties. Subsequently, the time series is divided into training and testing data, and the correlation of features in the training dataset is examined. Finally, linear regression and a Random Forest Regressor are applied to make predictions. Metrics for both models are also calculated and compared to assess their performance.
+In the `time_series_forecasting.ipynb` you can find the tutorial. For this tutorial, [public data from the pilot operation of the BDL project](https://opendata.ffe.de/dataset/electric-load-profiles-and-vehicle-data-of-private-households-with-a-bidirectional-ev/), which records household and PV load from various buildings, is used. Initially, some features are extracted from the time series, which can be derived from temporal information or from past values or their statistical properties. Subsequently, the time series is divided into training and testing data, and the correlation of features in the training dataset is examined. Finally, linear regression and a Random Forest Regressor are applied to make predictions. Metrics for both models are also calculated and compared to assess their performance.
 
+# Setup
+
+1. Create a virtual envoirnment with the requirements (or install them to your local python version):
+> `> virtualenv -p python3 venv`
+
+> `> source venv/bin/activate`
+
+> `> pip install requirements.txt`
+
+2. The tutorial can be found in the notebook: `time_series_forecasting.ipynb`
