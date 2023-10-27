@@ -7,7 +7,7 @@ In the `time_series_forecasting.ipynb` you can find the tutorial. For this tutor
 
 # Setup
 
-1. Create a virtual envoirnment with the requirements (or install them to your local python version):
+1. Create a virtual envoirnment with the requirements (or use your local python version):
 > `> virtualenv -p python3 venv`
 
 > `> source venv/bin/activate`
