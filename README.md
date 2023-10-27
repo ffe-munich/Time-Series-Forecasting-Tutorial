@@ -1,4 +1,4 @@
-# Time Series ForecastingPredictions in Energy Economics - Tutorial on Household and PV Load Forecasting
+# Predictions in Energy Economics - Tutorial on Household and PV Load Forecasting
 The energy industry is facing significant challenges that require high adaptability and the utilization of flexibility. To optimize the integration of renewable energies and harness the potential of electric mobility and heat pumps, reliable predictions are indispensable. In this series of articles, some fundamental concepts of machine learning have been introduced, such as appropriate metrics for evaluating prediction quality, various machine learning methods for time series forecasting, and their advantages and disadvantages. This article provides a practical example of how to perform time series forecasting using a Jupyter notebook.
 
 # Tutorial on Household and PV Load Forecasting
